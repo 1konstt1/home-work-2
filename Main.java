@@ -22,10 +22,10 @@ public class Main
 		int townSpeed = 60;
 		int countrySpeed = 90;
 
-		if (isTown = true) {
+		if (isTown) {
 			maxSpeed = townSpeed;
 		}
-		if (isTown = false) {
+		else {
 			maxSpeed = countrySpeed;
 		}
 
